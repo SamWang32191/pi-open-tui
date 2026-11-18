@@ -39,3 +39,17 @@ Use `npm test` for the full test suite and `npm run typecheck` for the strict Ty
 - Every version bump must include a matching entry in `CHANGELOG.md`, following Pi's package changelog format: newest first, a `## [x.y.z] - YYYY-MM-DD` heading that matches the `package.json` version, and simple, clear descriptions grouped under `### New Features`, `### Breaking Changes`, `### Added`, `### Changed`, `### Fixed`, and `### Removed` as applicable.
 - Use temporary directories for config and Git checks; do not write to the developer's real agent directory.
 - Do not edit `package-lock.json` unless dependency metadata changes.
+
+## Agent skills
+
+### Issue tracker
+
+Issues are tracked in the `SamWang32191/pi-open-tui` fork. See `docs/agents/issue-tracker.md`.
+
+### Triage labels
+
+Use the default five triage state labels. See `docs/agents/triage-labels.md`.
+
+### Domain docs
+
+This is a single-context repository. See `docs/agents/domain.md` for glossary and ADR lookup.
